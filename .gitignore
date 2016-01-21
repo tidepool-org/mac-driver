@@ -1,0 +1,4 @@
+*.pkg
+*.p12
+*.cer
+build/
