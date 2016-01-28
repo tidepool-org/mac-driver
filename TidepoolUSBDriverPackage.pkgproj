@@ -468,6 +468,13 @@
 		</dict>
 		<key>PACKAGE_SCRIPTS</key>
 		<dict>
+			<key>PREINSTALL_PATH</key>
+			<dict>
+				<key>PATH</key>
+				<string>/Users/gniezen/Code/tidepool/mac-driver/scripts/removeOldKexts.sh</string>
+				<key>PATH_TYPE</key>
+				<integer>0</integer>
+			</dict>
 			<key>RESOURCES</key>
 			<array/>
 		</dict>
