@@ -15,7 +15,8 @@ Open `TidepoolUsbDriverPackage` in Packages and click `Build->Build`
 
 ### Sign using productsign:
 
-`productsign --sign "Developer ID Installer: Tidepool Project" TidepoolUSBDriverUnsigned.pkg TidepoolUSBDriver.pkg`
+- Open Terminal and go to `build/`
+- `productsign --sign "Developer ID Installer: Tidepool Project" TidepoolUSBDriverUnsigned.pkg TidepoolUSBDriver.pkg`
 
 ### Test:
 
