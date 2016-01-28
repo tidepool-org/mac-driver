@@ -5,13 +5,13 @@ To build and sign the driver, make sure you have the specified requirements inst
 ## Requirements
 
 - [Packages](http://s.sudre.free.fr/Software/Packages/about.html)
-- Get Tidepool's Apple Developer ID Installer certificate, called MacAppSigning.p12 and install in Keychain
+- Get Tidepool's Apple Developer ID Installer certificate (.p12 file) and install in Keychain
 
 ## Steps
 
 ### Build the driver using Packages:
 
-Open `TidepoolUsbDriverPackage` in Packages and click `Build->Build`
+Open `TidepoolUSBDriverPackage` in Packages and click `Build->Build`
 
 ### Sign using productsign:
 
@@ -22,9 +22,6 @@ Open `TidepoolUsbDriverPackage` in Packages and click `Build->Build`
 
 - Make sure your Gatekeeper Security Settings are set to the default: "Mac App Store and identified developers"
 - Run `spctl -a -v --type install TidepoolUSBDriver.pkg`
-
-
-
 
 ## Notes
 
