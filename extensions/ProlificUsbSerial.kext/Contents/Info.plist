@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>14D136</string>
+	<string>13F1134</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -15,7 +15,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>ProlificUsbSerial</string>
+	<string>Mac OS X Driver for Prolific Universal USB-Serial Adapter</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
@@ -27,17 +27,17 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>6E35b</string>
+	<string>6A317</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>13F34</string>
+	<string>13F26</string>
 	<key>DTSDKName</key>
 	<string>macosx10.9</string>
 	<key>DTXcode</key>
-	<string>0640</string>
+	<string>0600</string>
 	<key>DTXcodeBuild</key>
-	<string>6E35b</string>
+	<string>6A317</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>067B_2303</key>
@@ -88,6 +88,23 @@
 			<integer>0</integer>
 			<key>idProduct</key>
 			<integer>41216</integer>
+			<key>idVendor</key>
+			<integer>1659</integer>
+		</dict>
+		<key>067B_E1F1</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.prolific.driver.PL2303</string>
+			<key>IOClass</key>
+			<string>com_prolific_driver_PL2303</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>57841</integer>
 			<key>idVendor</key>
 			<integer>1659</integer>
 		</dict>
